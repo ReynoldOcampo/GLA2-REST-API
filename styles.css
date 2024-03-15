@@ -1,0 +1,61 @@
+/* Resetting default styles */
+body {
+    font-family: Arial, sans-serif; /* Setting font family */
+    font-size: 10px;
+    margin: 0; /* Removing default margin */
+    padding: 0; /* Removing default padding */
+}
+
+/* Styling header */
+header {
+    background-color: #050858; /* Setting background color */
+    color: #fff; /* Setting text color */
+    padding: 10px; /* Adding padding */
+    display: flex; /* Displaying as flex container */
+    justify-content: space-between; /* Aligning items with space between them */
+    align-items: center; /* Centering items vertically */
+}
+
+/* Styling filter and sort elements */
+#filter, #sort {
+    justify-content: flex-end; /* Aligning items to the right */
+}
+
+/* Styling main content area */
+main {
+    display: grid; /* Displaying as grid */
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Setting grid columns */
+    gap: 10px; /* Adding gap between grid items */
+    padding: 10px; /* Adding padding */
+}
+
+/* Styling product card */
+.card {
+    background-color: #f4f4f4; /* Setting background color */
+    border-radius: 5px; /* Adding border radius */
+    padding: 10px; /* Adding padding */
+}
+
+/* Styling product images */
+.card img {
+    width: 50%; /* Making images fill their container */
+    border-radius: 5px; /* Adding border radius */
+}
+
+/* Styling product titles */
+.card h3 {
+    margin-top: 10px; /* Adding margin top */
+}
+/* Styling footer */
+
+footer {
+    background-color: #050858; /* Setting background color */
+    color: #fff; /* Setting text color */
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}

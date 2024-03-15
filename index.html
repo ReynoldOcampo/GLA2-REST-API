@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLA2 REST API</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FAKE STORE API</h1>
+        <!-- Category Filter Dropdown -->
+        <div>
+            <label for="category">Filter by Category:</label>
+            <select id="category">
+                <option value="all">All</option>
+                <option value="electronics">Electronics</option>
+                <option value="jewelery">Jewelry</option>
+                <option value="men's clothing">Men's Clothing</option>
+                <option value="women's clothing">Women's Clothing</option>
+            </select>
+        </div>
+        <!-- Sort Dropdown -->
+        <div>
+            <label for="sort">Sort Price:</label>
+            <select id="sort">
+                <option value="asc">Low to High</option>
+                <option value="desc">High to Low</option>
+            </select>
+        </div>
+    </header>
+
+    <main id="products">
+        <!-- Product Cards will be dynamically added here -->
+    </main>
+     <!-- Page Footer -->
+     <footer>
+        <p id="footer-content"></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
